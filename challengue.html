@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+    <br><br><br>
+    <div class="contenedor">
+
+        <div class="bloqueIzq">
+            <img class="letra_a" src="./images/a.svg" alt="">
+            <br>
+            <br><br><br><br>
+            <textarea 
+                id="pregunta"   
+                class="text_tarea"
+                name="textarea" 
+                rows="10" 
+                cols="50"
+                placeholder="Ingrese el texto aquí"></textarea>
+            <div class="botones">
+                <button id="encriptar"     class="encriptar" >Encriptar!</button>
+                <button id="desencriptar"  class="desencriptar"  >Desencriptación</button>
+            </div>
+        </div>
+
+        <div class="bloqueDer">
+            <br><br>
+            <div class="centrar">
+                <p id="respuesta"></p>
+            </div>
+            <img class="" src="./images/hombre.svg" id="muneco" alt="">
+
+            <div class="centrar">
+                <p id="respuesta2" ></p>
+            </div>
+            <div class=" boton_copiar centrar">
+                <button id="copiar" class="copiar  " >Copiar
+                </button>        
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./pig.js">
+
+</script>
+</html>
